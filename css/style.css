@@ -42,7 +42,7 @@ body {
   font-style: normal;
 }
 
-.hero-contacts {
+.hero-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -50,11 +50,11 @@ body {
   color: #434455;
 }
 
-.hero-contacts:hover {
+.hero-link:hover {
   color: #404bbf;
 }
 
-.hero-contacts:focus {
+.hero-link:focus {
   color: #404bbf;
 }
 
@@ -73,7 +73,6 @@ body {
 
 .hero-btn {
   font-family: "Roboto", sans-serif;
-  border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
