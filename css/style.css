@@ -98,8 +98,8 @@ body {
   margin-right: 40px;
 }
 
-.last {
-  margin-right: 0;
+.hero-top-line:last-child {
+  margin-right: 0px;
 }
 
 .hero-line:hover {
