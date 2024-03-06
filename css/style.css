@@ -111,7 +111,7 @@ button {
   color: #404bbf;
 }
 
-.hero-top-line::after {
+.current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -439,6 +439,12 @@ button {
   background-color: #2e2f42;
 }
 
+.footer-info {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -461,4 +467,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
