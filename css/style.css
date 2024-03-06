@@ -442,6 +442,9 @@ button {
 .footer-info {
   display: flex;
   align-items: baseline;
+}
+
+.logo-footer {
   margin-right: 120px;
 }
 
