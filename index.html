@@ -451,6 +451,12 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p></p>
+          <form action="">
+            <input type="text" placeholder="E-mail" />
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -522,24 +528,29 @@
                 placeholder="Text input"
                 required
               ></textarea>
-              <svg class="review-form-field-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-"></use>
-              </svg>
             </div>
           </div>
           <div class="review-form-checkbox-wrapper">
             <input
               type="checkbox"
-              class="review-form-privacy-checkbox"
-              name="privacy-policy"
-              id="privacy-policy"
+              class="review-form-privacy-checkbox visually-hidden"
+              name="privacy-polic"
+              id="privacy-polic"
               value="true"
               required
             />
-            <lable for="privacy-policy" class="review-form-checkbox-lable"
+            <lable for="privacy-polic" class="review-form-checkbox-lable">
+              <span class="review-form-own-checkbox">
+                <svg
+                  class="review-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use href="./images/icons.svg#icon-check-mark"></use>
+                </svg> </span
               >I accept the terms and conditions of the
-              <a class="privacy-policy-link" href="#">Privacy Policy</a></lable
-            >
+              <a class="privacy-policy-link" href="#">Privacy Policy</a>
+            </lable>
           </div>
           <button class="review-submit-btn" type="submit">Send</button>
         </form>
