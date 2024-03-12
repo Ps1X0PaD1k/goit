@@ -166,6 +166,7 @@ button {
 
 .hero-section {
   padding: 188px 0;
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -177,38 +178,38 @@ button {
   background-size: cover;
 }
 
-.hero-container {
-  display: flex;
-  justify-content: center;
-}
-
 .hero-title {
-  max-width: 496px;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
   font-size: 56px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  letter-spacing: 1.12px;
   text-align: center;
-  justify-content: center;
-  color: #ffffff;
+  padding-bottom: 48px;
+  max-width: 496px;
 }
 
 .open-modal {
-  font-family: "Roboto", sans-serif;
   display: block;
-  min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #4d5ae5;
-  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -307,8 +308,8 @@ button {
   top: 50%;
   left: 19px;
   transform: translateY(-50%);
-  stroke: #2e2f42;
-  transition: stroke 250ms linear;
+  fill: #2e2f42;
+  transition: fill 250ms linear;
 }
 
 .review-input {
@@ -325,7 +326,7 @@ button {
 }
 
 .review-input:focus + .review-form-field-icon {
-  stroke: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .review-form-message {
@@ -378,6 +379,7 @@ button {
   + .review-form-checkbox-lable
   .review-form-own-checkbox {
   outline: 2px solid #404bbf;
+  transition: 250ms linear;
 }
 
 .review-form-checkbox-lable {
@@ -623,8 +625,9 @@ button {
 
 /* footer start */
 .footer-menu {
+  display: flex;
   padding: 100px 0;
-  background-color: #2e2f42;
+  background: #2e2f42;
 }
 
 .footer-info {
@@ -634,8 +637,8 @@ button {
 
 .logo-footer {
   margin-right: 120px;
-  width: 264px;
-  height: 112px;
+  /* width: 264px;
+  height: 112px; */
 }
 
 .icon-list {
@@ -690,14 +693,81 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+}
+
+.footer-social-list {
+  margin-right: 80px;
 }
 
 .footer-social {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
+
+.footer-subscribe {
+  display: block;
+  flex-direction: column;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  height: 40px;
+  width: 264px;
+  padding-left: 16px;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.footer-lable {
+  display: flex;
+}
+
+.footer-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 165px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input:focus {
+  outline: transparent;
+}
+
 /* footer and */
