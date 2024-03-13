@@ -318,6 +318,10 @@ button {
 }
 
 .review-form-wraper {
+  margin-bottom: 8px;
+}
+
+.review-form-last {
   margin-bottom: 16px;
 }
 
