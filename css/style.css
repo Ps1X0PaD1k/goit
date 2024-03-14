@@ -5,19 +5,33 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
   display: block;
   min-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -37,19 +51,16 @@ section {
   padding: 120px 0;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  background-color: #ffffff;
-}
-
 button {
   border: none;
   cursor: pointer;
 }
+
+/* .container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+} */
 
 .container {
   max-width: 320px;
@@ -59,39 +70,13 @@ button {
   margin-right: auto;
 }
 
+/* tablet */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 736px;
   }
 }
-/* decktop */
-@media only screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-  }
-}
 
-.hero-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  margin-right: 76px;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.hero-logo-up {
-  color: #2e2f42;
-}
-
-/* .header-nav {
-  display: flex;
-  align-items: center;
-} */
-
-/* tablet */
 @media only screen and (min-width: 768px) {
   .header-list,
   .hero-address {
@@ -208,6 +193,22 @@ button {
   }
 }
 /* mobile */
+
+.hero-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.hero-logo-up {
+  color: #2e2f42;
+}
+
 @media only screen and (max-width: 767px) {
   .menu-open-btn {
     background-color: transparent;
@@ -288,5 +289,12 @@ button {
 @media only screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
+  }
+}
+
+/* decktop */
+@media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
   }
 }
