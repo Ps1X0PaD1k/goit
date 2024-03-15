@@ -28,8 +28,8 @@ address {
 
 img {
   display: block;
-  height: auto;
   width: 100%;
+  height: auto;
 }
 
 body {
@@ -495,7 +495,6 @@ footer {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  padding-bottom: 16px;
 }
 
 .footer-info {
@@ -1149,6 +1148,7 @@ footer {
   .logo-footer {
     display: block;
     text-align: start;
+    padding-bottom: 72px;
   }
 
   .footer-social-list {
