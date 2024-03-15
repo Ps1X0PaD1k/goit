@@ -955,10 +955,6 @@ footer {
     background-color: #404bbf;
   }
 
-  .logo-footer {
-    margin-bottom: 72px;
-  }
-
   .footer-social-list {
     display: flex;
     flex-wrap: wrap;
