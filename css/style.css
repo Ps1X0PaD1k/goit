@@ -29,6 +29,7 @@ address {
 img {
   display: block;
   height: auto;
+  min-width: 100%;
 }
 
 body {
