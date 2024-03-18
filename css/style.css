@@ -87,12 +87,13 @@ button {
 }
 
 .mobile-menu-container {
+  max-width: 320px;
   position: relative;
   display: flex;
   flex-direction: column;
-  /* background-color: #ffffff; */
   height: 100%;
-  margin: 16px 8px 40px 24px;
+  padding: 16px 8px 40px 24px;
+  margin: 0 auto;
 }
 
 .mobile-menu-blok {
